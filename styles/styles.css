@@ -55,5 +55,12 @@ li a:hover:not(.active) {
 .sticky {
    position: -webkit-sticky;
    position: sticky;
-   top: 0;
+   top: 35px;
+}
+
+.imgborder {
+	border-style: groove;
+	border-radius: 6px;
+	border-color: #00001a;
+ 
 }
