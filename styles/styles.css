@@ -10,7 +10,6 @@ ul {
     padding: 0;
     width: 300px;
     position: fixed;
-    border-color: #00001a;
     overflow: auto;
     font-family: algerian;
     
@@ -68,8 +67,17 @@ li a:hover {
 .bgc {
 	border-style: groove;
 	border-radius: 6px;
-	background-color: #333333;
+	background-color: #666666;
 	text-align: center;
-	color: #ffffff;
+	color: white;
+	
+}
+
+.bgc2 {
+	border-style: groove;
+	border-radius: 6px;
+	background-color: #a6a6a6;
+	text-align: center;
+	color: white;
 	
 }
