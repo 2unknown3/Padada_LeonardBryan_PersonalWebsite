@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    background-color:
 }
 
 ul {
@@ -54,4 +55,5 @@ li a:hover:not(.active) {
 .sticky {
    position: -webkit-sticky;
    position: sticky;
+   top: 0;
 }
