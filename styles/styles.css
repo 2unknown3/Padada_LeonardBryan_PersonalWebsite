@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    background-color:
+    background-color: #e6e6ff;
 }
 
 ul {
@@ -37,7 +37,7 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-    background-color: #000033;
+    background-color: #000066;
     color: white;
 }
 
