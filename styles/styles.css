@@ -36,7 +36,7 @@ li a.active {
     color: black;
 }
 
-li a:hover:not(.active) {
+li a:hover {
     background-color: #333333;
     color: white;
 }
@@ -69,5 +69,7 @@ li a:hover:not(.active) {
 	border-style: groove;
 	border-radius: 6px;
 	background-color: #333333;
+	text-align: center;
+	color: #ffffff;
 	
 }
