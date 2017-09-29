@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    background-color: #e6e6ff;
+    background-color: #d9d9d9;
 }
 
 ul {
@@ -63,4 +63,11 @@ li a:hover:not(.active) {
 	border-radius: 6px;
 	border-color: #00001a;
  
+}
+
+.bgc {
+	border-style: groove;
+	border-radius: 6px;
+	background-color: #333333;
+	
 }
