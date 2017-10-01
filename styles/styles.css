@@ -18,6 +18,7 @@
 	width: 500px;
 	margin: 0 auto;
 	list-style-type: none;
+	font-family: aharoni;
 }
 
 .nav li {
@@ -44,9 +45,22 @@
 }
 
 .imagepos {
+	position: relative;
 	top: 100px;
-	right: 50px;
-	width: 150px;
-	height: 150px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	right: 90px;	
+
+}
+
+.divpos {
+	position: relative;
+	right: 250px;
+	color: white;
+	top: -170px;
+	text-shadow: 4px 4px 4px #000000;
+	font-family: Aharoni;
+
+}
+
+.bg {
+	background-color: #a39f9f;
 }
