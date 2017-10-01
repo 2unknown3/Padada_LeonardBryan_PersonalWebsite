@@ -42,24 +42,26 @@
 
 .nav li a:hover {
 	background-color: #a39f9f;
-	border: 1px solid #a39f9f;
 }
 
 .imagepos {
 	position: relative;
 	top: 100px;
-	right: 90px;	
-
+	right: 90px;
+	left: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius 4px 4px 4px 4px;
+	width: 1020px;
+	height: 300px	
 }
 
 .divpos {
 	position: relative;
-	left: 150px;
+	left: 160px;
 	color: white;
 	top: -170px;
 	text-shadow: 4px 4px 4px #000000;
 	font-family: Aharoni;
-
 }
 
 .bg {
