@@ -1,5 +1,5 @@
 .gradient {
-	height: 550px;
+	height: 530px;
 	background: linear-gradient(#3e382c, #1e1f19);
 	padding: 50px 50px 50px 50px;
 }
@@ -10,7 +10,8 @@
 	width: 1100px;
 	background: linear-gradient(-90deg, #20211b, #433f33); 
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-radius: 4px 4px 4px 4px;  
+	border-radius: 4px 4px 4px 4px;
+	margin: auto;  
 	
 }
 
@@ -53,7 +54,7 @@
 
 .divpos {
 	position: relative;
-	right: 250px;
+	left: 150px;
 	color: white;
 	top: -170px;
 	text-shadow: 4px 4px 4px #000000;
