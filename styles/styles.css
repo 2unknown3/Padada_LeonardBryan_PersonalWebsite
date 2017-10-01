@@ -1,91 +1,43 @@
-
-body {
-    margin: 0;
-    background-color: #d9d9d9;
+.gradient {
+	height: 550px;
+	background: linear-gradient(#3e382c, #1e1f19);
+	padding: 50px 50px 50px 50px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0;
-    width: 300px;
-    position: fixed;
-    overflow: auto;
-    font-family: algerian;
-    
-    
-}
-.bg {
-	backgroud-color: #ccccff;
-}
-
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 10px;
-    text-decoration: none;
-    border-radius: 6px;
-    transition:all 0.2s linear;
-}
-
-li a.active {
-    background-color: #ffffff;
-    color: black;
-}
-
-li a:hover {
-    background-color: #333333;
-    color: white;
-}
-
-.center {
-    text-align: center;
-}
-
-.space {
-    padding-top: 5px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 100px;
-}
-
-.sticky {
-   position: -webkit-sticky;
-   position: sticky;
-   top: 35px;
-}
-
-.imgborder {
-	border-style: groove;
-	border-radius: 6px;
-	border-color: #00001a;
-}
-
-.bgc {
-	border-style: groove;
-	border-radius: 6px;
-	background-color: #666666;
-	text-align: center;
-	color: white;
+.padding {
+	
+	height: 550px;
+	width: 1100px;
+	background: linear-gradient(-90deg, #20211b, #433f33); 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 	
 }
 
-.bgc2 {
-	border-style: groove;
-	border-radius: 6px;
-	background-color: #a6a6a6;
-	text-align: center;
-	color: white;
-	
-}
-
-.divcenter {
+.nav {
 	width: 500px;
-	height: 400px;
-	border: 2px solid #e6e6e6;
-	border-radius: 6px;
-	box-shadow: -5px 5px 5px #000;
-	font-family: algerian;
-	
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	background-color: #121212;
+	display:block;
+	height: 40px;
+	line-height: 40px;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition:  all 0.2s linear;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.nav li a:hover {
+	background-color: #a39f9f;
+	border: 1px solid #a39f9f;
 }
