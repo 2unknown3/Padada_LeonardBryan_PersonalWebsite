@@ -63,8 +63,17 @@
 	top: -170px;
 	text-shadow: 4px 4px 4px #000000;
 	font-family: Aharoni;
+
 }
 
 .bg {
 	background-color: #a39f9f;
+}
+
+.foot {
+	color: #ffffff;
+	text-align: center;
+	font-family: tunga;
+	text-shadow: 4px 4px 4px #000000;
+	
 }
